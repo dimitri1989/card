@@ -1,0 +1,92 @@
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    width: 826px;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.item-container{
+    width: 45%;
+    min-height: 200px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 5px 5px 20px 0px rgba(133, 133, 133, 0.20);
+}
+.item-container__img{
+    width: 50%;
+    height: 100%;
+}
+.item-container__img img{
+    width: 100%;
+    height: 100%;
+}
+.item-container-elements__title{
+    color: #474747;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.item-container-elements{
+    width: 45%;
+    margin: 0 auto;
+}
+.item-container-elements__text{
+    color: #474747;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal; 
+    text-overflow: ellipsis;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+           line-clamp: 2;
+   -webkit-box-orient: vertical;   
+}
+.item-container-elements__brendi{
+    border-radius: 10px;
+    border: 1px solid rgba(255, 148, 70, 0.50);
+    background: rgba(255, 147, 69, 0.80);
+    box-shadow: 5px 5px 20px 0px rgba(255, 210, 178, 0.50);
+    color:rgb(255, 255, 255);
+    font-size:10px;
+    text-align: center;
+    width: 61%;
+    margin-bottom: 30%;
+}
+.item-container-elements__procenti{
+    color: rgba(2, 102, 12, 0.50);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.buttons-shoping__yidva{
+    width: 30%;
+    flex-shrink: 0;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+}
+.buttons-shoping__yidva img{
+    width: 100%;
+    
+}
+.item-container-elements__tanxa{
+    font-size: 15px;
+    font-weight: 700;
+}
+.buttons-shoping__like{
+    width: 30%;
+    flex-shrink: 0;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+}
+.buttons-shoping__like img{
+    width: 100%;
+}
